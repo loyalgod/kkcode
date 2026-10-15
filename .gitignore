@@ -1,0 +1,24 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# 后端
+backend/target/
+backend/tmp/
+backend/application-local.yml
+backend/application-prod.yml
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
